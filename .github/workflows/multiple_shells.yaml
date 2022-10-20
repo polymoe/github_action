@@ -9,7 +9,7 @@ jobs:
   run-shell-command:
     runs-on: ubuntu-latest
     steps:
-      - name: python commands
+      - name: python commands 
         run: |
           import platform
           print(platform.processor())
